@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "572045228345",
+    "firebase_url": "https://mess-f2daf.firebaseio.com",
+    "project_id": "mess-f2daf",
+    "storage_bucket": "mess-f2daf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572045228345:android:7e3e49f6d41bcf82",
+        "android_client_info": {
+          "package_name": "mess.bangalore.com.mess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572045228345-8m2ds0pvjct2i7ue4alr5mvsqlivt49r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mess.bangalore.com.mess",
+            "certificate_hash": "23c357a13d8c2f01199ad50c22c6f9b138e34a31"
+          }
+        },
+        {
+          "client_id": "572045228345-6dhn7gqed0telbdfu6ectfihqoo1vmvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-ANUzs4L-awFWRWIpNHxHcQ_Q_HdTOEg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572045228345-6dhn7gqed0telbdfu6ectfihqoo1vmvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

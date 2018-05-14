@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mess</string>
+    <string name="amount">\u20B9 %1$s</string>
+    <string name="recent">Recent Transactions</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Closed</string>
+    <string name="SAVE">Save</string>
+    <string name="paid_by_you">paid by <b> %1$s </b></string>
+    <string name="spinner_title">Select expense type</string>
+
+    <string-array name="tags">
+        <item>Bill</item>
+        <item>Food and Stationaries</item>
+        <item>Furniture and Electronics</item>
+        <item>Personal</item>
+        <item>Others</item>
+    </string-array>
+</resources>

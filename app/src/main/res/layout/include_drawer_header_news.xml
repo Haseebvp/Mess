@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_100"
+        android:background="@color/colorPrimary"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_large"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:text="John Miller"
+            android:textSize="@dimen/text_18"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:paddingBottom="@dimen/margin_10"
+        android:paddingLeft="@dimen/margin_15"
+        android:paddingRight="@dimen/margin_15"
+        android:paddingTop="@dimen/margin_10"
+        android:text="Members"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_16" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1"
+        android:layout_marginLeft="@dimen/margin_15"
+        android:layout_marginRight="@dimen/margin_15"
+        android:background="@color/grey_40" />
+
+    <LinearLayout
+        android:id="@+id/membersLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_10"
+        android:paddingLeft="@dimen/margin_25"
+        android:paddingRight="@dimen/margin_15"
+        android:paddingTop="@dimen/margin_10">
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="@dimen/margin_10"-->
+        <!--android:layout_marginTop="@dimen/margin_10"-->
+        <!--android:background="?attr/selectableItemBackground"-->
+        <!--android:text="Haseeb"-->
+        <!--android:textColor="@color/grey_80"-->
+        <!--android:textSize="@dimen/text_16" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="@dimen/margin_10"-->
+        <!--android:layout_marginTop="@dimen/margin_10"-->
+        <!--android:background="?attr/selectableItemBackground"-->
+        <!--android:text="Haseeb"-->
+        <!--android:textColor="@color/grey_80"-->
+        <!--android:textSize="@dimen/text_16" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="@dimen/margin_10"-->
+        <!--android:layout_marginTop="@dimen/margin_10"-->
+        <!--android:background="?attr/selectableItemBackground"-->
+        <!--android:text="Haseeb"-->
+        <!--android:textColor="@color/grey_80"-->
+        <!--android:textSize="@dimen/text_16" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="@dimen/margin_10"-->
+        <!--android:layout_marginTop="@dimen/margin_10"-->
+        <!--android:background="?attr/selectableItemBackground"-->
+        <!--android:text="Haseeb"-->
+        <!--android:textColor="@color/grey_80"-->
+        <!--android:textSize="@dimen/text_16" />-->
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1"
+        android:layout_marginLeft="@dimen/margin_15"
+        android:layout_marginRight="@dimen/margin_15"
+        android:background="@color/grey_40" />
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        style="@style/RippleStyleBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/generateBill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_10"
+            android:paddingLeft="@dimen/margin_15"
+            android:paddingRight="@dimen/margin_15"
+            android:paddingTop="@dimen/margin_20">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:text="Generate Bill"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_16" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_arrow_right" />
+        </RelativeLayout>
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+
+</LinearLayout>
